@@ -36,9 +36,9 @@ Make sure **Node.js** is installed on your system.
 git clone https://github.com/devops-ktm/javascript-expressJs
 cd javascript-expressJs
 
+---
 
-
-for setup
-  npm install express
-   npm install
-   node index.js
+ ## for setup  
+• npm install express 
+• npm install  
+• node `index.js`
