@@ -7,8 +7,8 @@ const PORT = 8000;
 
 //middleware
 app.use(express.urlencoded({extended: false}));
-//routes
-app.use(express.json()); // Add this line above your routes
+
+app.use(express.json());
 
 app.get("/api/users",(req,res) =>{
     return res.json(users);
