@@ -1,31 +1,44 @@
-User Management API – Express.js
-A simple REST API built using Express.js to manage users. The data is fetched from a mock dataset generated using Mockaroo. The API supports listing users, retrieving a single user by ID, and adding, editing, or deleting users.
+# User Management API – Express.js
 
-Features
-• Get all users in JSON format
-• Render users in HTML list format
-• Get individual user details by ID
-• Add a new user
-• Update an existing user (pending implementation)
-• Delete a user (pending implementation)
-• JSON file (MOCK_DATA.json) is used as a mock database
+This is a simple RESTful API built using **Express.js**. It serves user data from a mock dataset generated via [Mockaroo](https://www.mockaroo.com/). The project demonstrates basic CRUD operations (Create, Read, Update, Delete) with the data stored in a JSON file.
 
-Tech Stack
-• Express.js
-• Node.js
-• JavaScript
-• Mockaroo (for mock data)
-• fs module (for file write operations)
+---
 
-How to Run
-Step 1: Prerequisites (Node.js installed)
-Step 2: Clone the Repository
+## Features
+
+• Retrieve all users in JSON format  
+• Display user list as an HTML page  
+• Get individual user details by ID  
+• Add new users  
+• Update users by ID 
+• Delete users by ID 
+• Data stored in `MOCK_DATA.json` and updated using Node's `fs` module
+
+
+## Tech Stack
+
+• Node.js  
+• Express.js  
+• JavaScript  
+• File System module (`fs`)  
+• JSON for mock database  
+• Mockaroo (data generation)
+
+---
+
+## How to Run
+
+### Step 1: Prerequisites  
+Make sure **Node.js** is installed on your system.
+
+### Step 2: Clone the Repository  
+``bash
 git clone https://github.com/devops-ktm/javascript-expressJs
-Step 3: Navigate to the project folder
 cd javascript-expressJs
-Step 4: Install dependencies
-npm install
-Step 5: Start the server
-node index.js
 
-Then open http://localhost:8000
+
+
+for setup
+  npm install express
+   npm install
+   node index.js
