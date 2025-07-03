@@ -33,7 +33,7 @@ Make sure **Node.js** is installed on your system.
 
 ### Step 2: Clone the Repository  
 ``bash
-git clone https://github.com/devops-ktm/javascript-expressJs
+git clone https://github.com/devops-ktm/ExpressJs
 cd javascript-expressJs
 
 ---
